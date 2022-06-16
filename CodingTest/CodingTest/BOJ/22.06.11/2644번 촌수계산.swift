@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  CodingTest
+//  2644번 촌수계산
 //
 //  Created by 홍은표 on 2022/06/11.
 //
