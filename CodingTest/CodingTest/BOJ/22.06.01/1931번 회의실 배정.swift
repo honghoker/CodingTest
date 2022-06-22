@@ -8,20 +8,20 @@
 import Foundation
 
 let N = Int(readLine()!)!
-var conferences = [(Int, Int)]()
-var now = -1
+var map = [(Int, Int)]()
 var answer = 0
-
 for _ in 0..<N {
     let time = readLine()!.split(separator: " ").map { Int(String($0))! }
-    conferences.append((time[0], time[1]))
+    map.append((time[0], time[1]))
 }
 
-conferences.sort { $0.1 == $1.1 ? $0.0 < $1.0 : $0.1 < $1.1 }
+map.sort { $0.1 == $1.1 ? $0.0 < $1.0 : $0.1 < $1.1 }
 
-for conference in conferences {
-    if conference.0 >= now {
-        now = conference.1
+var end = -1
+
+for i in 0..<map.count {
+    if end <= map[i].0 {
+        end = map[i].1
         answer += 1
     }
 }
