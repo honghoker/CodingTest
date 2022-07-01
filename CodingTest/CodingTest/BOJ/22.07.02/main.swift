@@ -2,7 +2,7 @@
 //  main.swift
 //  CodingTest
 //
-//  Created by 홍은표 on 2022/07/01.
+//  Created by 홍은표 on 2022/07/02.
 //
 
 import Foundation
