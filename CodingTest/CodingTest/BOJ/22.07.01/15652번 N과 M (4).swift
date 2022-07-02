@@ -13,6 +13,7 @@ let (N, M) = (input[0], input[1])
 var answer = ""
 
 func dfs(_ now: Int, _ str: String, _ depth: Int) {
+    print(str)
     if depth == M {
         answer += str + "\n"
         return

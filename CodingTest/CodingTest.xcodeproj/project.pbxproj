@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51A4E666286F796500A2DCA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4E665286F796500A2DCA1 /* main.swift */; };
+		51A4E677287044F700A2DCA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4E676287044F700A2DCA1 /* main.swift */; };
+		51A4E678287044FA00A2DCA1 /* show me the code C번, 수들의 합 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4E665286F796500A2DCA1 /* show me the code C번, 수들의 합 8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,7 +115,10 @@
 		51A4E65F286F68A800A2DCA1 /* 15665번 N과 M (11).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15665번 N과 M (11).swift"; sourceTree = "<group>"; };
 		51A4E661286F6B5C00A2DCA1 /* 15666번 N과 M (12).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15666번 N과 M (12).swift"; sourceTree = "<group>"; };
 		51A4E663286F6C2700A2DCA1 /* 16909번 카드 구매하기 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16909번 카드 구매하기 3.swift"; sourceTree = "<group>"; };
-		51A4E665286F796500A2DCA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		51A4E665286F796500A2DCA1 /* show me the code C번, 수들의 합 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "show me the code C번, 수들의 합 8.swift"; sourceTree = "<group>"; };
+		51A4E66828700CDB00A2DCA1 /* show me the code A번, SHOW ME THE DUNGEON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "show me the code A번, SHOW ME THE DUNGEON.swift"; sourceTree = "<group>"; };
+		51A4E6702870158F00A2DCA1 /* show me th code B번, Drop 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "show me th code B번, Drop 7.swift"; sourceTree = "<group>"; };
+		51A4E676287044F700A2DCA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		51B717682831280E00804F25 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B7176B2831280E00804F25 /* K번째 수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K번째 수.swift"; sourceTree = "<group>"; };
 		51B7177428312E5B00804F25 /* 없는 숫자 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "없는 숫자 더하기.swift"; sourceTree = "<group>"; };
@@ -458,7 +462,10 @@
 		51A4E667286F7A0D00A2DCA1 /* 22.07.02 */ = {
 			isa = PBXGroup;
 			children = (
-				51A4E665286F796500A2DCA1 /* main.swift */,
+				51A4E665286F796500A2DCA1 /* show me the code C번, 수들의 합 8.swift */,
+				51A4E676287044F700A2DCA1 /* main.swift */,
+				51A4E6702870158F00A2DCA1 /* show me th code B번, Drop 7.swift */,
+				51A4E66828700CDB00A2DCA1 /* show me the code A번, SHOW ME THE DUNGEON.swift */,
 			);
 			path = 22.07.02;
 			sourceTree = "<group>";
@@ -640,7 +647,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A4E666286F796500A2DCA1 /* main.swift in Sources */,
+				51A4E678287044FA00A2DCA1 /* show me the code C번, 수들의 합 8.swift in Sources */,
+				51A4E677287044F700A2DCA1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
