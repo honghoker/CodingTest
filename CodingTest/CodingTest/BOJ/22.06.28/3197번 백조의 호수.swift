@@ -15,10 +15,8 @@ let dx = [0, 0, 1, -1]
 let dy = [1, -1, 0, 0]
 
 var map = [[String]]()
-var sx = -1
-var sy = -1
-var ex = -1
-var ey = -1
+var (sx, sy) = (-1, -1)
+var (ex, ey) = (-1, -1)
 var swanQueue: [(Int, Int)] = []
 var waterQueue: [(Int, Int)] = []
 
@@ -42,14 +40,12 @@ for i in 0..<R {
 }
 
 func meltIce() {
-    var nextWaterQueue: [(Int, Int)] = []
+    var nextWaterQueue: [(Int, Int)] = [] // 그 다음날 방문할 빙판
     var front = 0
     while front < waterQueue.count {
-        let node = waterQueue[front]
+        let (x, y) = waterQueue[front]
         front += 1
-        let x = node.0
-        let y = node.1
-
+        
         for i in 0...3 {
             let nX = x + dx[i]
             let nY = y + dy[i]
@@ -57,12 +53,14 @@ func meltIce() {
             if nX < 0 || nY < 0 || nX >= R || nY >= C {
                 continue
             }
-            if map[nX][nY] == "X" {
+            if map[nX][nY] == "X" { // 빙판을 찾을 경우
+                // 물로 만들어주고 queue에 좌표를 추가
                 map[nX][nY] = "."
                 nextWaterQueue.append((nX, nY))
             }
         }
     }
+    // 기존의 Queue에 새로 생성한 Queue 대입
     waterQueue = nextWaterQueue
 }
 
@@ -71,14 +69,13 @@ func bfs() -> Bool {
     var front = 0
 
     while front < swanQueue.count {
-        let node = swanQueue[front]
+        let (x, y) = swanQueue[front]
         front += 1
-        let x = node.0
-        let y = node.1
         
-        if x == ex && y == ey {
+        if x == ex && y == ey { //
             return true
         }
+        
         for i in 0...3 {
             let nX = x + dx[i]
             let nY = y + dy[i]
