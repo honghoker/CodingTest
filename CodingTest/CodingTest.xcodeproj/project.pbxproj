@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		519E5110287FD43200A51878 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519E510F287FD43200A51878 /* main.swift */; };
 		519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519E511D288067E000A51878 /* k진수에서 소수 개수 구하기.swift */; };
-		51E3E3D728845A7D004A2158 /* 징검다리 건너기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E3E3D628845A7D004A2158 /* 징검다리 건너기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +25,13 @@
 
 /* Begin PBXFileReference section */
 		510A1D8B28744CFA0078F98C /* 17070번 파이프 옮기기 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17070번 파이프 옮기기 1.swift"; sourceTree = "<group>"; };
+		5139C1EE28914E3A00060507 /* 짝지어 제거하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "짝지어 제거하기.swift"; sourceTree = "<group>"; };
+		5184C91F288F9806003D0BF7 /* 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
+		5184C921288FABEC003D0BF7 /* 튜플.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "튜플.swift"; sourceTree = "<group>"; };
+		5184C923288FD8CA003D0BF7 /* 불량 사용자.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "불량 사용자.swift"; sourceTree = "<group>"; };
+		5184C9262890511B003D0BF7 /* 호텔 방 배정.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "호텔 방 배정.swift"; sourceTree = "<group>"; };
+		5184C928289082C6003D0BF7 /* 문자열 압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 압축.swift"; sourceTree = "<group>"; };
+		5184C92928908AE4003D0BF7 /* 오픈채팅방.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "오픈채팅방.swift"; sourceTree = "<group>"; };
 		519E33D82872C20000F5FD58 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519E33E32872C29400F5FD58 /* Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeue.swift; sourceTree = "<group>"; };
 		519E33E42872C29400F5FD58 /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
@@ -179,6 +185,27 @@
 				51C06B8B2875C5B6002BF611 /* 2293번 동전 1.swift */,
 			);
 			path = 22.07.05;
+			sourceTree = "<group>";
+		};
+		5184C91E288F97FB003D0BF7 /* 22.07.26 */ = {
+			isa = PBXGroup;
+			children = (
+				5184C91F288F9806003D0BF7 /* 크레인 인형뽑기 게임.swift */,
+				5184C921288FABEC003D0BF7 /* 튜플.swift */,
+				5184C923288FD8CA003D0BF7 /* 불량 사용자.swift */,
+			);
+			path = 22.07.26;
+			sourceTree = "<group>";
+		};
+		5184C92528905113003D0BF7 /* 22.07.27 */ = {
+			isa = PBXGroup;
+			children = (
+				5184C9262890511B003D0BF7 /* 호텔 방 배정.swift */,
+				5184C928289082C6003D0BF7 /* 문자열 압축.swift */,
+				5184C92928908AE4003D0BF7 /* 오픈채팅방.swift */,
+				5139C1EE28914E3A00060507 /* 짝지어 제거하기.swift */,
+			);
+			path = 22.07.27;
 			sourceTree = "<group>";
 		};
 		519E33CF2872C20000F5FD58 = {
@@ -613,6 +640,8 @@
 		519E347A2872C29400F5FD58 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				5184C92528905113003D0BF7 /* 22.07.27 */,
+				5184C91E288F97FB003D0BF7 /* 22.07.26 */,
 				51E3E3D528845A73004A2158 /* 22.07.17 */,
 				519E511F28814DCC00A51878 /* 22.07.15 */,
 				519E5117287FE30C00A51878 /* 22.07.14 */,
@@ -744,7 +773,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E3E3D728845A7D004A2158 /* 징검다리 건너기.swift in Sources */,
 				519E5110287FD43200A51878 /* main.swift in Sources */,
 				519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */,
 			);
