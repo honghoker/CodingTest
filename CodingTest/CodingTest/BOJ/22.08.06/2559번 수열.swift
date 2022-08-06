@@ -4,7 +4,6 @@
 //
 //  Created by 홍은표 on 2022/08/06.
 //
-
 import Foundation
 
 let NK = readLine()!.split(separator: " ").map { Int(String($0))! }
