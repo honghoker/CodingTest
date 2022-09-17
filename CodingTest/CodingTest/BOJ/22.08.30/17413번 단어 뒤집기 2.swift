@@ -4,7 +4,6 @@
 //
 //  Created by 홍은표 on 2022/08/30.
 //
-
 import Foundation
 
 var S = readLine()!.map { String($0) }
