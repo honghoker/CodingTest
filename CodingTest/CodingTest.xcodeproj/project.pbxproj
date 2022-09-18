@@ -42,6 +42,7 @@
 		513E6F54289EC588009E2060 /* 2559번 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2559번 수열.swift"; sourceTree = "<group>"; };
 		513E6F55289EC5B6009E2060 /* 2096번 내려가기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2096번 내려가기.swift"; sourceTree = "<group>"; };
 		516082AE28D5E8B2000C4082 /* 11053번 가장 긴 증가하는 부분 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11053번 가장 긴 증가하는 부분 수열.swift"; sourceTree = "<group>"; };
+		516082B128D770EB000C4082 /* 조이스틱.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "조이스틱.swift"; sourceTree = "<group>"; };
 		516EAE2E28BDAB9B006488E5 /* 1378번 케빈 베이컨의 6단계 법칙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1378번 케빈 베이컨의 6단계 법칙.swift"; sourceTree = "<group>"; };
 		516EAE2F28BDAC1D006488E5 /* 17413번 단어 뒤집기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17413번 단어 뒤집기 2.swift"; sourceTree = "<group>"; };
 		5184C91F288F9806003D0BF7 /* 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
@@ -282,6 +283,14 @@
 				516082AE28D5E8B2000C4082 /* 11053번 가장 긴 증가하는 부분 수열.swift */,
 			);
 			path = 22.09.17;
+			sourceTree = "<group>";
+		};
+		516082B028D770D0000C4082 /* 22.09.19 */ = {
+			isa = PBXGroup;
+			children = (
+				516082B128D770EB000C4082 /* 조이스틱.swift */,
+			);
+			path = 22.09.19;
 			sourceTree = "<group>";
 		};
 		516EAE2D28BDAB92006488E5 /* 22.08.30 */ = {
@@ -761,6 +770,7 @@
 		519E347A2872C29400F5FD58 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				516082B028D770D0000C4082 /* 22.09.19 */,
 				51B53E0E289CF1B000F95E44 /* 22.08.05 */,
 				51B53E0A289B92E700F95E44 /* 22.08.04 */,
 				510ABC96289AB33D00CAC211 /* 22.08.03 */,
