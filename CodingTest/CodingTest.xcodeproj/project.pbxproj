@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519E511D288067E000A51878 /* k진수에서 소수 개수 구하기.swift */; };
+		51DCF91028E3F491008CC4D5 /* 여행경로.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DCF90F28E3F491008CC4D5 /* 여행경로.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -194,6 +195,7 @@
 		51B53E0F289CF1BB00F95E44 /* 파일명 정렬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "파일명 정렬.swift"; sourceTree = "<group>"; };
 		51C06B8B2875C5B6002BF611 /* 2293번 동전 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2293번 동전 1.swift"; sourceTree = "<group>"; };
 		51C06B8D2875C5EA002BF611 /* 2170번 선 긋기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2170번 선 긋기.swift"; sourceTree = "<group>"; };
+		51DCF90F28E3F491008CC4D5 /* 여행경로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "여행경로.swift"; sourceTree = "<group>"; };
 		51E3E3D628845A7D004A2158 /* 징검다리 건너기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "징검다리 건너기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -821,6 +823,7 @@
 		519E347A2872C29400F5FD58 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				51DCF90E28E3F48C008CC4D5 /* 22.09.29 */,
 				5130051F28E1B7DA006D7C28 /* 22.09.26 */,
 				516082B028D770D0000C4082 /* 22.09.19 */,
 				51B53E0E289CF1B000F95E44 /* 22.08.05 */,
@@ -914,6 +917,14 @@
 			path = 22.07.14;
 			sourceTree = "<group>";
 		};
+		51DCF90E28E3F48C008CC4D5 /* 22.09.29 */ = {
+			isa = PBXGroup;
+			children = (
+				51DCF90F28E3F491008CC4D5 /* 여행경로.swift */,
+			);
+			path = 22.09.29;
+			sourceTree = "<group>";
+		};
 		51E3E3D528845A73004A2158 /* 22.07.17 */ = {
 			isa = PBXGroup;
 			children = (
@@ -980,6 +991,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DCF91028E3F491008CC4D5 /* 여행경로.swift in Sources */,
 				519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
