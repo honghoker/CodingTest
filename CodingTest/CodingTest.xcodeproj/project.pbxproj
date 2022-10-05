@@ -59,6 +59,9 @@
 		516082C828DDF755000C4082 /* 2138번 전구와 스위치.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2138번 전구와 스위치.swift"; sourceTree = "<group>"; };
 		516EAE2E28BDAB9B006488E5 /* 1378번 케빈 베이컨의 6단계 법칙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1378번 케빈 베이컨의 6단계 법칙.swift"; sourceTree = "<group>"; };
 		516EAE2F28BDAC1D006488E5 /* 17413번 단어 뒤집기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17413번 단어 뒤집기 2.swift"; sourceTree = "<group>"; };
+		5170AE3C28ECB5C900B8D61A /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
+		5170AE3D28ED531E00B8D61A /* 1629번 곱셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1629번 곱셈.swift"; sourceTree = "<group>"; };
+		5178586228EC5596000E2972 /* 1715번 카드 정렬하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1715번 카드 정렬하기.swift"; sourceTree = "<group>"; };
 		5184C91F288F9806003D0BF7 /* 크레인 인형뽑기 게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "크레인 인형뽑기 게임.swift"; sourceTree = "<group>"; };
 		5184C921288FABEC003D0BF7 /* 튜플.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "튜플.swift"; sourceTree = "<group>"; };
 		5184C923288FD8CA003D0BF7 /* 불량 사용자.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "불량 사용자.swift"; sourceTree = "<group>"; };
@@ -388,6 +391,15 @@
 			path = 22.08.30;
 			sourceTree = "<group>";
 		};
+		5170AE3B28ECB58300B8D61A /* 22.10.05 */ = {
+			isa = PBXGroup;
+			children = (
+				5178586228EC5596000E2972 /* 1715번 카드 정렬하기.swift */,
+				5170AE3D28ED531E00B8D61A /* 1629번 곱셈.swift */,
+			);
+			path = 22.10.05;
+			sourceTree = "<group>";
+		};
 		5180AC5628741FBE007351E3 /* 22.07.05 */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,6 +471,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				5170AE3B28ECB58300B8D61A /* 22.10.05 */,
 				5113E9FC28EC0068006E211E /* 22.10.04 */,
 				514AF44928EAED1E0070DDB3 /* 22.10.03 */,
 				51B6824328E98363005E2CD8 /* 22.10.02 */,
@@ -956,6 +969,7 @@
 			isa = PBXGroup;
 			children = (
 				51B6823C28E968DE005E2CD8 /* BST 연습.swift */,
+				5170AE3C28ECB5C900B8D61A /* MinHeap.swift */,
 			);
 			path = ETC;
 			sourceTree = "<group>";
