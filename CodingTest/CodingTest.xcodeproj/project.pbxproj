@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5195163228F1DB7F0084765D /* 9252번 LCS 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5195163128F1DB7F0084765D /* 9252번 LCS 2.swift */; };
 		519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519E511D288067E000A51878 /* k진수에서 소수 개수 구하기.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		5184C928289082C6003D0BF7 /* 문자열 압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 압축.swift"; sourceTree = "<group>"; };
 		5184C92928908AE4003D0BF7 /* 오픈채팅방.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "오픈채팅방.swift"; sourceTree = "<group>"; };
 		5195162F28F1CCA20084765D /* 10942번 팰린드롬?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10942번 팰린드롬?.swift"; sourceTree = "<group>"; };
+		5195163128F1DB7F0084765D /* 9252번 LCS 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9252번 LCS 2.swift"; sourceTree = "<group>"; };
 		519E33D82872C20000F5FD58 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519E33E32872C29400F5FD58 /* Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeue.swift; sourceTree = "<group>"; };
 		519E33E42872C29400F5FD58 /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
@@ -410,6 +412,14 @@
 			path = 22.09.23;
 			sourceTree = "<group>";
 		};
+		5164A57028F34E2400B4E361 /* 22.10.10 */ = {
+			isa = PBXGroup;
+			children = (
+				5195163128F1DB7F0084765D /* 9252번 LCS 2.swift */,
+			);
+			path = 22.10.10;
+			sourceTree = "<group>";
+		};
 		516EAE2D28BDAB92006488E5 /* 22.08.30 */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,6 +517,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				5164A57028F34E2400B4E361 /* 22.10.10 */,
 				5195162E28F1CC9E0084765D /* 22.10.09 */,
 				5123511728F0960B001DF8A2 /* 22.10.08 */,
 				5123511428EF39EB001DF8A2 /* 22.10.07 */,
@@ -1128,6 +1139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5195163228F1DB7F0084765D /* 9252번 LCS 2.swift in Sources */,
 				519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
