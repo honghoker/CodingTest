@@ -1,9 +1,6 @@
-//
-//  명예의 전당 (1).swift
-//  CodingTest
-//
+//  프로그래머스 - 명예의 전당(1)
+//  https://school.programmers.co.kr/learn/courses/30/lessons/138477
 //  Created by 홍은표 on 2022/11/25.
-//
 
 import Foundation
 
