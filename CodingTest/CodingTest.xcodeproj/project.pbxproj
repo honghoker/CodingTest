@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519E511D288067E000A51878 /* k진수에서 소수 개수 구하기.swift */; };
+		51ECDD7429332944000F8A05 /* 17404번 RGB거리 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ECDD7329332944000F8A05 /* 17404번 RGB거리 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -285,6 +286,7 @@
 		51E60EEA28E5A175009096E8 /* 괄호 회전하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "괄호 회전하기.swift"; sourceTree = "<group>"; };
 		51E60EEB28E5AAFA009096E8 /* 위장.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위장.swift"; sourceTree = "<group>"; };
 		51E60EEC28E5AEF9009096E8 /* 이진 변환 반복하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이진 변환 반복하기.swift"; sourceTree = "<group>"; };
+		51ECDD7329332944000F8A05 /* 17404번 RGB거리 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17404번 RGB거리 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -768,6 +770,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				51ECDD722933293C000F8A05 /* 22.11.27 */,
 				51C7082329321ACD0080C6DA /* 22.11.26 */,
 				5149215D292D3612005A6B1E /* 22.11.23 */,
 				51DD082E291BA50D009597C3 /* 22.11.09 */,
@@ -1462,6 +1465,14 @@
 			path = 22.07.17;
 			sourceTree = "<group>";
 		};
+		51ECDD722933293C000F8A05 /* 22.11.27 */ = {
+			isa = PBXGroup;
+			children = (
+				51ECDD7329332944000F8A05 /* 17404번 RGB거리 2.swift */,
+			);
+			path = 22.11.27;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1520,6 +1531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51ECDD7429332944000F8A05 /* 17404번 RGB거리 2.swift in Sources */,
 				519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
