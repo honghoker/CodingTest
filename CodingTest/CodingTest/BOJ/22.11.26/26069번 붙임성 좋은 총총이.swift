@@ -1,5 +1,5 @@
-//  B번 - 붙임성 좋은 총총이
-//  https://www.acmicpc.net/contest/problem/895/2
+//  백준 - 붙임성 좋은 총총이
+//  https://www.acmicpc.net/problem/26069
 //  Created by 홍은표 on 2022/11/26.
 
 import Foundation

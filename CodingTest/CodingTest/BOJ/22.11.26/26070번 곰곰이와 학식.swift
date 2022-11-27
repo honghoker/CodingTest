@@ -1,5 +1,5 @@
-//  C번 - 곰곰이와 학식
-//  https://www.acmicpc.net/contest/problem/895/3
+//  백준 - 곰곰이와 학식
+//  https://www.acmicpc.net/problem/26070
 //  Created by 홍은표 on 2022/11/26.
 
 import Foundation

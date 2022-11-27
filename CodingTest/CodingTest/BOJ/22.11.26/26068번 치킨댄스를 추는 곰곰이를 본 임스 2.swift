@@ -1,5 +1,5 @@
-//  A번 - 치킨댄스를 추는 곰곰이를 본 임스 2
-//  https://www.acmicpc.net/contest/problem/895/1
+//  백준 - 치킨댄스를 추는 곰곰이를 본 임스 2
+//  https://www.acmicpc.net/problem/26068
 //  Created by 홍은표 on 2022/11/26.
 
 import Foundation
