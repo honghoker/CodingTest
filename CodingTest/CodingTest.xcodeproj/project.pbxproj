@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519E511D288067E000A51878 /* k진수에서 소수 개수 구하기.swift */; };
-		51EA77072935FA5800192A55 /* 2504번 괄호의 값.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA77062935FA5800192A55 /* 2504번 괄호의 값.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -290,6 +289,7 @@
 		51E60EEB28E5AAFA009096E8 /* 위장.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위장.swift"; sourceTree = "<group>"; };
 		51E60EEC28E5AEF9009096E8 /* 이진 변환 반복하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이진 변환 반복하기.swift"; sourceTree = "<group>"; };
 		51EA77062935FA5800192A55 /* 2504번 괄호의 값.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2504번 괄호의 값.swift"; sourceTree = "<group>"; };
+		51EA77092937476900192A55 /* 14719번 빗물.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14719번 빗물.swift"; sourceTree = "<group>"; };
 		51ECDD7329332944000F8A05 /* 17404번 RGB거리 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17404번 RGB거리 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -782,6 +782,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				51EA77082937476400192A55 /* 22.11.30 */,
 				51EA77052935FA5400192A55 /* 22.11.29 */,
 				51056D7A2934074000836568 /* 22.11.28 */,
 				51ECDD722933293C000F8A05 /* 22.11.27 */,
@@ -1487,6 +1488,14 @@
 			path = 22.11.29;
 			sourceTree = "<group>";
 		};
+		51EA77082937476400192A55 /* 22.11.30 */ = {
+			isa = PBXGroup;
+			children = (
+				51EA77092937476900192A55 /* 14719번 빗물.swift */,
+			);
+			path = 22.11.30;
+			sourceTree = "<group>";
+		};
 		51ECDD722933293C000F8A05 /* 22.11.27 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1555,7 +1564,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51EA77072935FA5800192A55 /* 2504번 괄호의 값.swift in Sources */,
 				519E511E288067E000A51878 /* k진수에서 소수 개수 구하기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
