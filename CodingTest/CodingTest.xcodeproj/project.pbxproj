@@ -280,6 +280,7 @@
 		51B6824728E9AB7A005E2CD8 /* 12852번 1로 만들기 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12852번 1로 만들기 2.swift"; sourceTree = "<group>"; };
 		51B6824928E9BE8F005E2CD8 /* 1932번 정수 삼각형.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1932번 정수 삼각형.swift"; sourceTree = "<group>"; };
 		51BAC5BD290C6D3700D0D4FA /* 햄버거 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "햄버거 만들기.swift"; sourceTree = "<group>"; };
+		51BC95AD2982B1820076D9AC /* 13164번 행복 유치원.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13164번 행복 유치원.swift"; sourceTree = "<group>"; };
 		51C06B8B2875C5B6002BF611 /* 2293번 동전 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2293번 동전 1.swift"; sourceTree = "<group>"; };
 		51C06B8D2875C5EA002BF611 /* 2170번 선 긋기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2170번 선 긋기.swift"; sourceTree = "<group>"; };
 		51C3281B2920D71900C30641 /* 로또의 최고 순위와 최저 순위.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "로또의 최고 순위와 최저 순위.swift"; sourceTree = "<group>"; };
@@ -951,6 +952,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				51BC95AC2982B17D0076D9AC /* 22.01.26 */,
 				51079ED22981630200BC07DD /* 22.01.25 */,
 				510EA7B02975952D00871E15 /* 22.01.16 */,
 				511D78692971579F00611847 /* 22.01.13 */,
@@ -1590,6 +1592,14 @@
 				51BAC5BD290C6D3700D0D4FA /* 햄버거 만들기.swift */,
 			);
 			path = 22.10.29;
+			sourceTree = "<group>";
+		};
+		51BC95AC2982B17D0076D9AC /* 22.01.26 */ = {
+			isa = PBXGroup;
+			children = (
+				51BC95AD2982B1820076D9AC /* 13164번 행복 유치원.swift */,
+			);
+			path = 22.01.26;
 			sourceTree = "<group>";
 		};
 		51C06B882875BA1C002BF611 /* 22.07.06 */ = {
