@@ -7,12 +7,12 @@ import Foundation
 let input = readLine()!.split(separator: " ").map { Int(String($0))! }
 let (N, K) = (input[0], input[1])
 var arr = readLine()!.split(separator: " ").map { Int(String($0))! }
-var state = [Int]()
+var state = Set<Int>()
 var answer = 0
 
 for i in 0..<arr.count {
     if state.contains(arr[i]) { continue }
-    if state.count < N { state.append(arr[i]) }
+    if state.count < N { state.insert(arr[i]) }
     else {
         var maxIndex = -1
         var maxVal = -1
@@ -26,10 +26,9 @@ for i in 0..<arr.count {
                 maxVal = val; break
             }
         }
-        if let index = state.firstIndex(where: { $0 == maxVal }) {
-            state[index] = arr[i]
-            answer += 1
-        }
+        state.remove(maxVal)
+        state.insert(arr[i])
+        answer += 1
     }
 }
 
