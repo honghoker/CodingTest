@@ -21,29 +21,21 @@ var buffer: [UInt8] = Array(FileHandle.standardInput.readDataToEndOfFile()), byt
 
 let (N, M) = (readInt(), readInt())
 
-var times = [Int]()
-var maxTime = 0
+var times = [Int64]()
 
-for _ in 0..<N {
-    times.append(readInt())
-    maxTime = max(maxTime, times.last!)
-}
+for _ in 0..<N { times.append(Int64(readInt())) }
 
-var left = 0, right = M * maxTime
-var answer = 0
+var left: Int64 = 0, right = Int64.max
 
-while left <= right {
+while left < right {
     let mid = (left + right) / 2
-    var sum = 0
+    var sum: Int64 = 0
     
     for i in 0..<N {
         sum += mid / times[i]
+        if sum >= M { break }
     }
-    if sum < M {
-        left = mid + 1
-    } else {
-        answer = mid
-        right = mid - 1
-    }
+    if sum < M { left = mid + 1 }
+    else { right = mid }
 }
-print(answer)
+print(left)
