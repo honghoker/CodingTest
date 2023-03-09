@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519A903229BA323F00FEA8CE /* n^2 배열 자르기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519A903129BA323F00FEA8CE /* n^2 배열 자르기.swift */; };
 		51D17BAD296AE539009B34F7 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D17BA5296AE321009B34F7 /* Temp.swift */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +150,7 @@
 		519A902829B3ED1600FEA8CE /* 15644번 구슬 탈출 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15644번 구슬 탈출 3.swift"; sourceTree = "<group>"; };
 		519A902B29B78E6200FEA8CE /* 택배 배달과 수거하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "택배 배달과 수거하기.swift"; sourceTree = "<group>"; };
 		519A902E29B8EBF800FEA8CE /* 이모티콘 할인행사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이모티콘 할인행사.swift"; sourceTree = "<group>"; };
+		519A903129BA323F00FEA8CE /* n^2 배열 자르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "n^2 배열 자르기.swift"; sourceTree = "<group>"; };
 		519E33D82872C20000F5FD58 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		519E33E32872C29400F5FD58 /* Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeue.swift; sourceTree = "<group>"; };
 		519E33E42872C29400F5FD58 /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
@@ -1039,6 +1041,14 @@
 			path = 23.03.09;
 			sourceTree = "<group>";
 		};
+		519A903029BA323900FEA8CE /* 23.03.10 */ = {
+			isa = PBXGroup;
+			children = (
+				519A903129BA323F00FEA8CE /* n^2 배열 자르기.swift */,
+			);
+			path = 23.03.10;
+			sourceTree = "<group>";
+		};
 		519E33CF2872C20000F5FD58 = {
 			isa = PBXGroup;
 			children = (
@@ -1547,6 +1557,7 @@
 		519E347A2872C29400F5FD58 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				519A903029BA323900FEA8CE /* 23.03.10 */,
 				519A902D29B8EBF100FEA8CE /* 23.03.09 */,
 				519A902A29B78E5D00FEA8CE /* 23.03.08 */,
 				517A31DB29B39E610069B50D /* 23.03.05 */,
@@ -2163,6 +2174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D17BAD296AE539009B34F7 /* Temp.swift in Sources */,
+				519A903229BA323F00FEA8CE /* n^2 배열 자르기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
