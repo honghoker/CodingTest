@@ -66,6 +66,7 @@
 		511DEE1D28B791080053C859 /* 1167번 트리의 지름.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1167번 트리의 지름.swift"; sourceTree = "<group>"; };
 		511EE75E28F352BA0038FDF0 /* 18185번 라면 사기 (Small).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18185번 라면 사기 (Small).swift"; sourceTree = "<group>"; };
 		511EE76328F46E770038FDF0 /* 18186번 라면 사기 (Large).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18186번 라면 사기 (Large).swift"; sourceTree = "<group>"; };
+		511F81E329F1640E00405E24 /* 28014번 첨탑 밀어서 부수기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28014번 첨탑 밀어서 부수기.swift"; sourceTree = "<group>"; };
 		51209F4529EB9C6200B635B0 /* 27959번 초코바.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27959번 초코바.swift"; sourceTree = "<group>"; };
 		51209F5329EC4CEA00B635B0 /* 27960번 사격 내기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27960번 사격 내기.swift"; sourceTree = "<group>"; };
 		51209F5529EC4D3200B635B0 /* 27961번 고양이는 많을수록 좋다.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27961번 고양이는 많을수록 좋다.swift"; sourceTree = "<group>"; };
@@ -650,6 +651,14 @@
 				511EE76328F46E770038FDF0 /* 18186번 라면 사기 (Large).swift */,
 			);
 			path = 22.10.11;
+			sourceTree = "<group>";
+		};
+		511F81E229F1640800405E24 /* 23.05.06 */ = {
+			isa = PBXGroup;
+			children = (
+				511F81E329F1640E00405E24 /* 28014번 첨탑 밀어서 부수기.swift */,
+			);
+			path = 23.05.06;
 			sourceTree = "<group>";
 		};
 		51205E6B2911611C002D28A5 /* 22.11.01 */ = {
@@ -1258,6 +1267,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				511F81E229F1640800405E24 /* 23.05.06 */,
 				51209F4429EB9C5B00B635B0 /* 23.04.16 */,
 				510A148329D7182C00863E6E /* 23.04.01 */,
 				5112921629D016A50024339B /* 23.03.28 */,
