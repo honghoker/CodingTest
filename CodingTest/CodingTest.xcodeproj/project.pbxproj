@@ -117,6 +117,7 @@
 		5153A81D29C217D900B514F7 /* 땅따먹기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "땅따먹기.swift"; sourceTree = "<group>"; };
 		5153A82029C3615300B514F7 /* 리코쳇 로봇.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "리코쳇 로봇.swift"; sourceTree = "<group>"; };
 		51563238294AEF4600DF8C05 /* 24536번 정원장어.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24536번 정원장어.swift"; sourceTree = "<group>"; };
+		515DA1582A1FDD3A00AD6678 /* 20920번 영단어 암기는 괴로워.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20920번 영단어 암기는 괴로워.swift"; sourceTree = "<group>"; };
 		516082AE28D5E8B2000C4082 /* 11053번 가장 긴 증가하는 부분 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11053번 가장 긴 증가하는 부분 수열.swift"; sourceTree = "<group>"; };
 		516082B128D770EB000C4082 /* 조이스틱.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "조이스틱.swift"; sourceTree = "<group>"; };
 		516082B328D87A30000C4082 /* 12015번 가장 긴 증가하는 부분 수열 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12015번 가장 긴 증가하는 부분 수열 2.swift"; sourceTree = "<group>"; };
@@ -914,6 +915,14 @@
 			path = 22.12.15;
 			sourceTree = "<group>";
 		};
+		5156B75A2A2AA0A5006A2824 /* 23.06.03 */ = {
+			isa = PBXGroup;
+			children = (
+				515DA1582A1FDD3A00AD6678 /* 20920번 영단어 암기는 괴로워.swift */,
+			);
+			path = 23.06.03;
+			sourceTree = "<group>";
+		};
 		515DA1572A1FDD0500AD6678 /* 23.05.26 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1287,6 +1296,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				5156B75A2A2AA0A5006A2824 /* 23.06.03 */,
 				515DA1572A1FDD0500AD6678 /* 23.05.26 */,
 				51263ADE2A13CC2E00C48BA7 /* 23.05.20 */,
 				511F81E229F1640800405E24 /* 23.05.06 */,
