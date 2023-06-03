@@ -9,6 +9,10 @@ class Dequeue<T> {
     var enQueue: [T]
     var deQueue: [T] = []
     
+    init(_ queue: [T]) {
+        enQueue = queue
+    }
+    
     var count: Int {
         return enQueue.count + deQueue.count
     }
@@ -17,10 +21,22 @@ class Dequeue<T> {
         return enQueue.isEmpty && deQueue.isEmpty
     }
     
-    init(_ queue: [T]) {
-        enQueue = queue
+    var last: T? {
+        if enQueue.isEmpty {
+            enQueue = deQueue.reversed()
+            deQueue.removeAll()
+        }
+        return enQueue.last
     }
     
+    var first: T? {
+        if deQueue.isEmpty {
+            deQueue = enQueue.reversed()
+            enQueue.removeAll()
+        }
+        return deQueue.last
+    }
+
     func pushLast(_ element: T) {
         enQueue.append(element)
     }
