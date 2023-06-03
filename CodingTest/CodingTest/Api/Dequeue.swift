@@ -29,19 +29,19 @@ class Dequeue<T> {
         deQueue.append(element)
     }
     
-    func popLast() -> T {
+    func popLast() -> T? {
         if enQueue.isEmpty {
             enQueue = deQueue.reversed()
             deQueue.removeAll()
         }
-        return enQueue.popLast()!
+        return enQueue.popLast()
     }
     
-    func popFirst() -> T {
+    func popFirst() -> T? {
         if deQueue.isEmpty {
             deQueue = enQueue.reversed()
             enQueue.removeAll()
         }
-        return deQueue.popLast()!
+        return deQueue.popLast()
     }
 }
