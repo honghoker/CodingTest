@@ -75,6 +75,7 @@
 		51209F5929EEFB7A00B635B0 /* 27968번 사사의 사차원 사탕 봉지.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27968번 사사의 사차원 사탕 봉지.swift"; sourceTree = "<group>"; };
 		51209F5B29EEFBB300B635B0 /* 27971번 강아지는 많을수록 좋다.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27971번 강아지는 많을수록 좋다.swift"; sourceTree = "<group>"; };
 		51209F5D29EEFBE800B635B0 /* 27972번 악보는 거들 뿐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27972번 악보는 거들 뿐.swift"; sourceTree = "<group>"; };
+		512117A22A4859E500786163 /* 1135번 뉴스 전하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1135번 뉴스 전하기.swift"; sourceTree = "<group>"; };
 		5123510E28ED74C6001DF8A2 /* 2470번 두 용액.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2470번 두 용액.swift"; sourceTree = "<group>"; };
 		5123511228EDE80B001DF8A2 /* 1644번 소수의 연속합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1644번 소수의 연속합.swift"; sourceTree = "<group>"; };
 		5123511528EF4A39001DF8A2 /* 2294번 동전 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2294번 동전 2.swift"; sourceTree = "<group>"; };
@@ -699,6 +700,14 @@
 				51209F5D29EEFBE800B635B0 /* 27972번 악보는 거들 뿐.swift */,
 			);
 			path = 23.04.16;
+			sourceTree = "<group>";
+		};
+		512117A12A4859E000786163 /* 23.06.25 */ = {
+			isa = PBXGroup;
+			children = (
+				512117A22A4859E500786163 /* 1135번 뉴스 전하기.swift */,
+			);
+			path = 23.06.25;
 			sourceTree = "<group>";
 		};
 		5123511028EDDBC4001DF8A2 /* 22.10.06 */ = {
@@ -1341,6 +1350,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				512117A12A4859E000786163 /* 23.06.25 */,
 				517884202A46E6BA00A453F3 /* 23.06.24 */,
 				5178841D2A4207B300A453F3 /* 23.06.21 */,
 				5150F9722A3F274F00B90A4A /* 23.06.18 */,
