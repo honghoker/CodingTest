@@ -391,6 +391,7 @@
 		51C7082429321AD30080C6DA /* 26068번 치킨댄스를 추는 곰곰이를 본 임스 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26068번 치킨댄스를 추는 곰곰이를 본 임스 2.swift"; sourceTree = "<group>"; };
 		51C7082629321BB20080C6DA /* 26069번 붙임성 좋은 총총이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26069번 붙임성 좋은 총총이.swift"; sourceTree = "<group>"; };
 		51C708282932222F0080C6DA /* 26070번 곰곰이와 학식.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26070번 곰곰이와 학식.swift"; sourceTree = "<group>"; };
+		51C8E7F52B3315CB00A1EE02 /* 1717번 집합의 표현.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1717번 집합의 표현.swift"; sourceTree = "<group>"; };
 		51C938C529377A7400939E81 /* 14225번 부분수열의 합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14225번 부분수열의 합.swift"; sourceTree = "<group>"; };
 		51CC66FA29C5C68E00D58FF1 /* 방문 길이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "방문 길이.swift"; sourceTree = "<group>"; };
 		51CDA2D328F59A5100456867 /* 1874번 스택 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1874번 스택 수열.swift"; sourceTree = "<group>"; };
@@ -1521,6 +1522,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				51C8E7F42B3315C600A1EE02 /* 23.12.23 */,
 				5174D7782B31C296003B99E7 /* 23.12.19 */,
 				519AD70F2B2F15D800766748 /* 23.12.17 */,
 				5191E2FE2B2CA28C007E44E3 /* 23.12.16 */,
@@ -2431,6 +2433,14 @@
 				51C708282932222F0080C6DA /* 26070번 곰곰이와 학식.swift */,
 			);
 			path = 22.11.26;
+			sourceTree = "<group>";
+		};
+		51C8E7F42B3315C600A1EE02 /* 23.12.23 */ = {
+			isa = PBXGroup;
+			children = (
+				51C8E7F52B3315CB00A1EE02 /* 1717번 집합의 표현.swift */,
+			);
+			path = 23.12.23;
 			sourceTree = "<group>";
 		};
 		51CC66F929C5C68100D58FF1 /* 23.03.18 */ = {
