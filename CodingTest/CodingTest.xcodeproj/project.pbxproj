@@ -70,6 +70,7 @@
 		511DEE1928B750130053C859 /* 1991번 트리 순회.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1991번 트리 순회.swift"; sourceTree = "<group>"; };
 		511DEE1B28B766FF0053C859 /* 1967번 트리의 지름.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1967번 트리의 지름.swift"; sourceTree = "<group>"; usesTabs = 0; };
 		511DEE1D28B791080053C859 /* 1167번 트리의 지름.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1167번 트리의 지름.swift"; sourceTree = "<group>"; };
+		511EDED22B36EE82003C3083 /* 2110번 공유기 설치.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2110번 공유기 설치.swift"; sourceTree = "<group>"; };
 		511EE75E28F352BA0038FDF0 /* 18185번 라면 사기 (Small).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18185번 라면 사기 (Small).swift"; sourceTree = "<group>"; };
 		511EE76328F46E770038FDF0 /* 18186번 라면 사기 (Large).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18186번 라면 사기 (Large).swift"; sourceTree = "<group>"; };
 		511F81E329F1640E00405E24 /* 28014번 첨탑 밀어서 부수기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28014번 첨탑 밀어서 부수기.swift"; sourceTree = "<group>"; };
@@ -1522,6 +1523,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				519F00EA2B3980E600630198 /* 23.12.25 */,
 				51C8E7F42B3315C600A1EE02 /* 23.12.23 */,
 				5174D7782B31C296003B99E7 /* 23.12.19 */,
 				519AD70F2B2F15D800766748 /* 23.12.17 */,
@@ -2147,6 +2149,14 @@
 				519E5122288191F700A51878 /* 양궁대회.swift */,
 			);
 			path = 22.07.15;
+			sourceTree = "<group>";
+		};
+		519F00EA2B3980E600630198 /* 23.12.25 */ = {
+			isa = PBXGroup;
+			children = (
+				511EDED22B36EE82003C3083 /* 2110번 공유기 설치.swift */,
+			);
+			path = 23.12.25;
 			sourceTree = "<group>";
 		};
 		519F277E2949C4330095C858 /* 22.12.14 */ = {
