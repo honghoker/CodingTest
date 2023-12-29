@@ -30,6 +30,7 @@
 		51056D742933734200836568 /* 26082번 WARBOY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26082번 WARBOY.swift"; sourceTree = "<group>"; };
 		51056D762933754500836568 /* 26083번 유통기한.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26083번 유통기한.swift"; sourceTree = "<group>"; };
 		51056D7B2934074600836568 /* 26091번 현대모비스 소프트웨어 아카데미.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26091번 현대모비스 소프트웨어 아카데미.swift"; sourceTree = "<group>"; };
+		5106B4AF2B3B086900C475EE /* 1477번 휴게소 세우기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1477번 휴게소 세우기.swift"; sourceTree = "<group>"; };
 		51079ED32981630D00BC07DD /* 2212번 센서.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2212번 센서.swift"; sourceTree = "<group>"; };
 		5108C7A429C9F55800B981C5 /* 다리를 지나는 트럭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다리를 지나는 트럭.swift"; sourceTree = "<group>"; };
 		5108C7A729CA147200B981C5 /* 가장 큰 정사각형 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장 큰 정사각형 찾기.swift"; sourceTree = "<group>"; };
@@ -522,6 +523,14 @@
 				51056D7B2934074600836568 /* 26091번 현대모비스 소프트웨어 아카데미.swift */,
 			);
 			path = 22.11.28;
+			sourceTree = "<group>";
+		};
+		5106B4AE2B3B085D00C475EE /* 23.12.29 */ = {
+			isa = PBXGroup;
+			children = (
+				5106B4AF2B3B086900C475EE /* 1477번 휴게소 세우기.swift */,
+			);
+			path = 23.12.29;
 			sourceTree = "<group>";
 		};
 		51079ED22981630200BC07DD /* 23.01.25 */ = {
@@ -1523,6 +1532,7 @@
 		519E33E62872C29400F5FD58 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				5106B4AE2B3B085D00C475EE /* 23.12.29 */,
 				519F00EA2B3980E600630198 /* 23.12.25 */,
 				51C8E7F42B3315C600A1EE02 /* 23.12.23 */,
 				5174D7782B31C296003B99E7 /* 23.12.19 */,
